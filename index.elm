@@ -30,9 +30,9 @@ view address model =
     h1 [] [text model.name]
     ,h2 [] [text model.description]
     ,div [id "socials"] [
-     social "Ask me on Zhihu!" model.zhihu
-     ,social "@ me on Twitter!" model.twitter
-     ,social "Fork me on GitHub!" model.github
+      social "Fork me on GitHub!" model.github
+     ,social "Ask me on Zhihu!" model.zhihu
+     ,social "Follow me on Twitter!" model.twitter
     ]
   ]
 

@@ -11351,9 +11351,9 @@ Elm.TK.make = function (_elm) {
               _U.list([$Html.text(model.description)]))
               ,A2($Html.div,
               _U.list([$Html$Attributes.id("socials")]),
-              _U.list([A2(social,"Ask me on Zhihu!",model.zhihu)
-                      ,A2(social,"@ me on Twitter!",model.twitter)
-                      ,A2(social,"Fork me on GitHub!",model.github)]))]));
+              _U.list([A2(social,"Fork me on GitHub!",model.github)
+                      ,A2(social,"Ask me on Zhihu!",model.zhihu)
+                      ,A2(social,"Follow me on Twitter!",model.twitter)]))]));
    });
    var model = {name: "Twiknight"
                ,description: "Developer and Software Engineering practitioner"
