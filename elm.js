@@ -11353,13 +11353,15 @@ Elm.TK.make = function (_elm) {
               _U.list([$Html$Attributes.id("socials")]),
               _U.list([A2(social,"Fork me on GitHub!",model.github)
                       ,A2(social,"Ask me on Zhihu!",model.zhihu)
-                      ,A2(social,"Follow me on Twitter!",model.twitter)]))]));
+                      ,A2(social,"Follow me on Twitter!",model.twitter)
+                      ,A2(social,"Read me on Gitbook!",model.blog)]))]));
    });
    var model = {name: "Twiknight"
                ,description: "Developer and Software Engineering practitioner"
                ,github: "https://github.com/Twiknight"
                ,twitter: "https://twitter.com/twiknight1984"
-               ,zhihu: "https://www.zhihu.com/people/moon-silver"};
+               ,zhihu: "https://www.zhihu.com/people/moon-silver"
+               ,blog: "https://twiknight.gitbooks.io/blog/content/"};
    var main = $StartApp$Simple.start({model: model
                                      ,view: view
                                      ,update: update});

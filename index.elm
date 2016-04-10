@@ -23,6 +23,7 @@ model =
       , github = "https://github.com/Twiknight"
       , twitter = "https://twitter.com/twiknight1984"
       , zhihu = "https://www.zhihu.com/people/moon-silver"
+      , blog = "https://twiknight.gitbooks.io/blog/content/"
     }
 
 view address model =
@@ -33,6 +34,7 @@ view address model =
       social "Fork me on GitHub!" model.github
      ,social "Ask me on Zhihu!" model.zhihu
      ,social "Follow me on Twitter!" model.twitter
+     ,social "Read me on Gitbook!" model.blog
     ]
   ]
 
